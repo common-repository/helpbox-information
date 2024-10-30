@@ -1,0 +1,21 @@
+@media screen and (max-width: 479px) {
+#helpMainContainer{display:none}
+}
+#helpMainContainer .helpFloat{top:20vh;right:-280px;max-width:280px;width:100%;position:fixed;transition:all .2s ease-in-out;z-index:99999}
+#helpMainContainer #toggle{float:right}
+#helpMainContainer .helpheaderimage{width:100%}
+#helpMainContainer .helpheadervideo{width:calc(100% - 2px);padding:1px}
+#helpMainContainer #toggle:hover{cursor:pointer}
+#helpMainContainer .contactMe a{text-align:left;margin:0;font-size:14px;font-family:arial;padding:5px 10px 10px!important;background-color:#000}
+#helpMainContainer .helpBtn{background-color:#000;font-weight:300;color:#fff;font-family:arial;width:50px;height:50px;text-align:center;line-height:48px;font-size:30px;border-top-left-radius:25px;border-bottom-left-radius:25px;position:absolute;left:-50px;top:0;border:solid #000 2px;border-right:0}
+#helpMainContainer #sidebarcheck{display:none}
+#helpMainContainer #sidebarcheck:checked ~ .helpFloat{right:0}
+#helpMainContainer .helpContainer{width:100%;max-width:300px;height:auto;border:solid #000 1px;border-right:none;margin:0;padding:0;background-color:#000}
+#helpMainContainer .helpContainer ul,#helpMainContainer .helpContainer li,#helpMainContainer .helpContainer p{margin:0;padding:0;list-style:none}
+#helpMainContainer .helpContainer ul{margin-top:-1px}
+#helpMainContainer .helpContainer ul h4{font-family:arial;margin:0;font-size:14px;padding:5px 10px;font-weight:400;background-color:#000;color:#fff}
+#helpMainContainer .helpContainer li{background-color:#fff}
+#helpMainContainer .helpContainer li h4:hover{cursor:pointer}
+#helpMainContainer .helpContainer ul p{font-family:arial;display:none;margin:0 0 5px;padding:5px 10px;font-size:14px}
+#helpMainContainer .helpContainer ul p a{font-family:arial;font-size:14px}
+#helpMainContainer .helpContainer ul li.active p{display:block}
